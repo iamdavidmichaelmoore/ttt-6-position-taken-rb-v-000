@@ -1,4 +1,4 @@
-def position_take?(board, index)
+def position_taken?(board, index)
   position_checked = board[index]
   if position_checked == " "
     false
