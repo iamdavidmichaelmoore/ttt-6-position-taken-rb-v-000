@@ -5,6 +5,6 @@ def position_taken?(board, index)
   elsif position_checked == "nil"
     false
   elsif (position_checked == "X") || (position_checked == "O")
-    false
+    true
   end
 end
